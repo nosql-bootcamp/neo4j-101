@@ -34,13 +34,13 @@ Une fois la base de données lancée, ouvrez la page [http://localhost:7474/brow
 Une fois authentifié, pour découvrir les concepts de base, tapez la commande suivante :
 
 ```
-  :play concepts
+:play concepts
 ```
 
 Pour découvrir le langage Cypher, tapez la commande suivante :
 
 ```
-  :play cypher
+:play cypher
 ```
 
 Quelques exercices complémentaires (basées sur les données créées dans l'exercice de découverte de Cypher ci-dessus) :
@@ -54,5 +54,5 @@ Pour aller plus loin sur les possibilités de requêtes de Cypher, vous pouvez r
 Si il vous reste un peu de temps, tapez la commande suivante :
 
 ```
-  :play movie graph
+:play movie graph
 ```
