@@ -26,18 +26,22 @@ Voici quelques use cases pour lesquels les bases de données orientées graphes 
 Un graphe Neo4J ne peut pas être partitionné. Il est possible d'installer une base Neo4J sur plusieurs serveurs pour mettre en oeuvre un service hautement disponible mais **chaque noeud dispose de l'ensemble des données du cluster**. L'écriture est effectuée sur la base d'un principe de master/slaves, le master maintient des réplicats à jour. Si le noeud master tombe en panne, un nouveau master est élu parmi les noeuds slaves synchrones. Les opérations d'écriture ainsi que l'élection d'un master s'appuient sur un principe de **quorum**.
 
 ## Installation
-Pour installer Neo4J, rendez-vous sur le [lien suivant](https://neo4j.com/download/community-edition/), téléchargez la version adaptée à votre OS et suivez les instruction d'installation.
+Pour installer Neo4J, rendez-vous sur le [lien suivant](https://neo4j.com/download/community-edition/), téléchargez la version adaptée à votre OS et suivez les instructions d'installation.
 
 ## Prise en main
-Une fois la base de données lancée, ouvrez la page http://localhost:7474/browser/ dans un browser. Connectez-vous le **login/mot de passe** par défaut est **neo4j/neo4j**.
+Une fois la base de données lancée, ouvrez la page [http://localhost:7474/browser/](http://localhost:7474/browser/) dans un browser. Connectez-vous au serveur, le **login/mot de passe** par défaut est **neo4j/neo4j**.
 
 Une fois authentifié, pour découvrir les concepts de base, tapez la commande suivante :
 
+```
   :play concepts
+```
 
 Pour découvrir le langage Cypher, tapez la commande suivante :
 
+```
   :play cypher
+```
 
 Quelques exercices complémentaires (basées sur les données créées dans l'exercice de découverte de Cypher ci-dessus) :
 
@@ -49,4 +53,6 @@ Pour aller plus loin sur les possibilités de requêtes de Cypher, vous pouvez r
 
 Si il vous reste un peu de temps, tapez la commande suivante :
 
+```
   :play movie graph
+```
