@@ -19,7 +19,7 @@ bin/neo4j console
 
 Neo4j stocke par défaut ses données dans le répertoire `data/databases/graph.db` du répertoire d'installation.
 
-Ce répertoire contient l'ensemble des données du graphe. Il n'existe pas de notion de schéma dans Neo4J, pour créer plusieurs graphes, il faut démarrer plusieurs instances de Neo4J pointant sur plusieurs répartoires différents.
+Ce répertoire contient l'ensemble des données du graphe. Il n'existe pas de notion de schéma dans Neo4J, pour créer plusieurs graphes, il faut démarrer plusieurs instances de Neo4J pointant sur plusieurs répertoires différents.
 
 Pour cela, il faut modifier la configuration se trouvant dans le fichier `conf/neo4j.conf`, en particulier les propriétés suivantes :
 
