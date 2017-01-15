@@ -1,5 +1,6 @@
 ## Prise en main
-Une fois la base de données lancée, ouvrez la page [http://localhost:7474/browser/](http://localhost:7474/browser/) dans un browser. Connectez-vous au serveur, le **login/mot de passe** par défaut est **neo4j/neo4j**.
+
+Une fois la base de données lancée, ouvrez la page [http://localhost:7474/browser/](http://localhost:7474/browser/) dans un browser. Connectez-vous au serveur avec l'utilisateur `neo4j` et le mot de passe renseigné lors de l'installation.
 
 Une fois authentifié, pour découvrir les concepts de base, tapez la commande suivante :
 
