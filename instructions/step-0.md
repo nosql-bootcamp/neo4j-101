@@ -5,4 +5,4 @@ La base démarre par défaut sur le répertoire par défaut, `default.graphdb`, 
 
 ## Next
 
-Vous pouvez passer à l'étape suivante : [Prise en main](./instructions/step-1.md)
+Vous pouvez passer à l'étape suivante : [Prise en main](./step-1.md)

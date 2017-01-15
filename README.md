@@ -29,5 +29,5 @@ Voici quelques use cases pour lesquels les bases de données orientées graphes 
 
 ## Liens utiles
 
-* La documentation technique est [disponible ici](http://neo4j.com/docs/developer-manual/3.0/).
-* Une refcard sur le langage Cypher est [disponible ici](https://neo4j.com/docs/cypher-refcard/current/).
+* La documentation technique est http://neo4j.com/docs/developer-manual/3.0/
+* Une refcard sur le langage Cypher est https://neo4j.com/docs/cypher-refcard/current/
