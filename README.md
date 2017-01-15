@@ -6,6 +6,8 @@
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
+<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">neo4j-101</span> par <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/nosql-bootcamp/neo4j-101" property="cc:attributionName" rel="cc:attributionURL">Chris WOODROW et Sébastien PRUNIER</a> est distribué sous les termes de la licence <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons - Attribution - NonCommercial - ShareAlike</a>.
+
 ## Introduction
 
 **Neo4J** est une base de données orientée graphes créée en 2007 par la société	**Neo Technology**. À la différence d'une base relationnelle, les relations (jointures en SQL) sont optimisées. De fait, les opérations mettant en oeuvre des relations garantissent des performances linéaires. Les bases de données SQL présentent des performances qui se dégradent exponentiellement lors des jointures. En ce qui concerne les autres types de bases NoSQL (orientées KV, orientées colonnes, orientées documents), elles ne proposent tout simplement pas de jointures.
