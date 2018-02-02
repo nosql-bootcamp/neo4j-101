@@ -24,7 +24,7 @@ Pour aller plus loin sur les possibilités de requêtes de Cypher, vous pouvez r
 Si il vous reste un peu de temps, tapez la commande suivante :
 
 ```
-:play movie graph
+:play northwind graph
 ```
 
 Solutions : 
