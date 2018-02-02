@@ -17,12 +17,17 @@ Pour découvrir le langage Cypher, tapez la commande suivante :
 Quelques exercices complémentaires (basées sur les données créées dans l'exercice de découverte de **Cypher** ci-dessus) :
 
 * Vous pouvez écrire une requête qui renvoie les prénoms des personnes
-* Vous pouvez écrire une requête qui envoie l'ensemble des noeuds qui sont à une distance de 4 du noeud *"Emil"* ?
+* Vous pouvez écrire une requête qui envoie l'ensemble des noeuds qui sont à une distance de 4 du noeud *"Emil"*
 
-Pour aller plus loin sur les possibilités de requêtes de Cypher, vous pouvez regarder en détail la clause [MATCH](http://neo4j.com/docs/developer-manual/3.0/cypher/#query-match) ainsi que les [fonctions disponibles](http://neo4j.com/docs/developer-manual/3.0/cypher/#query-function).
+Pour aller plus loin sur les possibilités de requêtes de Cypher, vous pouvez regarder en détail la clause [MATCH](https://neo4j.com/docs/developer-manual/3.3/cypher/clauses/match/) ainsi que les [fonctions disponibles](https://neo4j.com/docs/developer-manual/3.3/cypher/functions/).
 
 Si il vous reste un peu de temps, tapez la commande suivante :
 
 ```
 :play movie graph
 ```
+
+Solutions : 
+
+* Requête qui renvoie les prénoms des personnes : `MATCH (x) RETURN x.name`
+* Requête qui envoie l'ensemble des noeuds qui sont à une distance de 4 du noeud *"Emil"* : `MATCH (x:Person)-[:KNOWS *4]->(y:Person) WHERE x.name = 'Emil' RETURN y`
