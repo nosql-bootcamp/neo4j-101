@@ -1,12 +1,12 @@
 # Neo4j 101
 
-![neo4j-logo](https://s3.amazonaws.com/dev.assets.neo4j.com/wp-content/uploads/neo4j-logo.png)
+![neo4j-logo](https://neo4j.com/wp-content/themes/neo4jweb/assets/images/neo4j-logo-2015.png)
 
 **Neo4j 101** est un workshop permettant de découvrir la base de données NoSQL Neo4J et son écosystème, étape par étape.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
-<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">neo4j-101</span> par <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/nosql-bootcamp/neo4j-101" property="cc:attributionName" rel="cc:attributionURL">Chris WOODROW et Sébastien PRUNIER</a> est distribué sous les termes de la licence <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons - Attribution - NonCommercial - ShareAlike</a>.
+<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">neo4j-101</span> par <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/nosql-bootcamp/neo4j-101" property="cc:attributionName" rel="cc:attributionURL">Chris WOODROW, Sébastien PRUNIER et Benjamin CAVY</a> est distribué sous les termes de la licence <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons - Attribution - NonCommercial - ShareAlike</a>.
 
 ## Introduction
 
@@ -18,7 +18,7 @@
 
 Un graphe **Neo4J** ne peut pas être partitionné. Il est possible d'installer une base **Neo4J** sur plusieurs serveurs pour mettre en oeuvre un service hautement disponible mais **chaque noeud dispose de l'ensemble des données du cluster**. L'écriture est effectuée sur la base d'un principe de master/slaves, le master maintient des répliques à jour. Si le noeud master tombe en panne, un nouveau master est élu parmi les noeuds slaves synchrones. Les opérations d'écriture ainsi que l'élection d'un master s'appuient sur un principe de **quorum**.
 
-Ce workshop est basé sur la **version 3.1.0** de Neo4j.
+Ce workshop est basé sur la **version 3.3.2** de Neo4j.
 
 ### Use Cases
 
@@ -37,5 +37,5 @@ Voici quelques use cases pour lesquels les bases de données orientées graphes 
 
 ## Liens utiles
 
-* La documentation technique : http://neo4j.com/docs/developer-manual/3.0/
-* Une refcard sur le langage Cypher : https://neo4j.com/docs/cypher-refcard/current/
+* La documentation technique : https://neo4j.com/docs/developer-manual/3.3/
+* Une refcard sur le langage Cypher : https://neo4j.com/docs/cypher-refcard/3.3/
