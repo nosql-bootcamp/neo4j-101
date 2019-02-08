@@ -1,19 +1,19 @@
 ## Installation
 
-Pour télécharger **Neo4J**, rendez-vous sur le [lien suivant](https://neo4j.com/download/community-edition/), téléchargez la version `tar` ou `zip` adaptée à votre OS.
+Pour télécharger **Neo4J**, rendez-vous sur le [lien suivant](https://neo4j.com/download-center/#releases), téléchargez la version **Community server** `tar` ou `zip` de adaptée à votre OS.
 
 Suivez ensuite les instructions d'installation.
 
 Par exemple pour l'installation sous Unix / MacOS :
 
-* Dézippez l'archive dans le dossier de votre choix, par exemple `~/progs/neo4j-community-3.3.2`.
+* Dézippez l'archive dans le dossier de votre choix, par exemple `~/progs/neo4j-community-3.5.2`.
 * Démarrez Neo4j :
 ```bash
-cd ~/progs/neo4j-community-3.3.2
+cd ~/progs/neo4j-community-3.5.2
 bin/neo4j console
 ```
 * Ouvrez un navigateur à l'adresse suivante : http://localhost:7474/
-* Changez le mot de passe du compte neo4j
+* Changez le mot de passe du compte neo4j (l'ancien mot de passe est neo4j)
 
 ## Données
 
