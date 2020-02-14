@@ -6,14 +6,15 @@ Suivez ensuite les instructions d'installation.
 
 Par exemple pour l'installation sous Unix / MacOS :
 
-* Dézippez l'archive dans le dossier de votre choix, par exemple `~/progs/neo4j-community-3.5.2`.
+* Dézippez l'archive dans le dossier de votre choix, par exemple `~/progs/neo4j-community-3.5.14`.
 * Démarrez Neo4j :
 ```bash
-cd ~/progs/neo4j-community-3.5.2
+cd ~/progs/neo4j-community-3.5.14
 bin/neo4j console
 ```
 * Ouvrez un navigateur à l'adresse suivante : http://localhost:7474/
-* Changez le mot de passe du compte neo4j (l'ancien mot de passe est neo4j)
+* Le compte utilisateur qui a été créé par défaut est `neo4j` avec le mot de passe `neo4j`
+* Changez le mot de passe du compte `neo4j`
 
 ## Données
 
