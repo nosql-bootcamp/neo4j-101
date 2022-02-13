@@ -1,5 +1,16 @@
 ## Installation
 
+### Installation dans le cloud
+
+Plutôt que d'installer Neo4J localement, vous pouvez profiter de la version cloud qui est accessible [https://neo4j.com/cloud/aura/?ref=get-started-dropdown-cta](ici) (bouton bleu `Start free` au milieu de la page).
+
+**Pensez à bien enregistrer votre mot de passe, il ne vous est donné qu'une seule fois.**
+
+Cette option est plus simple du point de vue de l'installation, néanmoins il vous faudra adapter vos requêtes pour la suite.
+
+
+### Installation en local
+
 Pour télécharger **Neo4J**, rendez-vous sur le [lien suivant](https://neo4j.com/download-center/#releases), téléchargez la version **Community server** `tar` ou `zip` de adaptée à votre OS.
 
 Suivez ensuite les instructions d'installation.
