@@ -2,7 +2,7 @@
 
 ### Installation dans le cloud
 
-Plutôt que d'installer Neo4J localement, vous pouvez profiter de la version cloud qui est accessible [https://neo4j.com/cloud/aura/?ref=get-started-dropdown-cta](ici) (bouton bleu `Start free` au milieu de la page).
+Plutôt que d'installer Neo4J localement, vous pouvez profiter de la version cloud qui est accessible [ici](https://neo4j.com/cloud/aura/?ref=get-started-dropdown-cta) (bouton bleu `Start free` au milieu de la page).
 
 **Pensez à bien enregistrer votre mot de passe, il ne vous est donné qu'une seule fois.**
 
